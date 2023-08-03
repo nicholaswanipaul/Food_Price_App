@@ -33,8 +33,6 @@ min_unit_price=price_data['unit_price'].min()
 avg_unit_price=price_data['unit_price'].mean()
 max_unit_price=price_data['unit_price'].max()
 
-#seattle_weather = pd.read_csv('https://raw.githubusercontent.com/tvst/plost/master/data/seattle-weather.csv', parse_dates=['date'])
-#stocks = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/stocks_toy.csv')
 
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
