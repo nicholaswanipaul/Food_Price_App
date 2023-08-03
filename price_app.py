@@ -10,7 +10,7 @@ import joblib
 import seaborn as sns
 from matplotlib import rcParams
 
-#Loading the cleaned data from the  excel file
+#Loading the cleaned data from the excel file
 price_data = pd.read_csv("https://raw.githubusercontent.com/nicholaswanipaul/streamlit/main/food_prices_cleaned.csv")
 
 #Preparation of indepenent variables year, commodity and price flag which determine the final unit price
